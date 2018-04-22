@@ -1,0 +1,127 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+/***** Grid *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 380px;
+  float: left;
+}
+/***** Header *****/
+header h1 .rogue{
+  color: #77a466;
+  text-transform: uppercase;
+}
+header h1 {
+  text-transform: uppercase;
+  padding: 50px 0;
+  height: 30px;
+}
+nav {
+  float: right;
+  margin-top: 70px;
+  word-spacing: 15px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header img {
+  border-top: 5px solid #77a466;
+  margin-top: -25px;
+  border-bottom: 4px solid #77a466;
+}
+/***** MAIN *****/
+main h2 {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 18px;
+}
+main p {
+  font-size: 15px;
+  font-weight: bold;
+}
+/****** SECTION ******/
+#border {
+  height: 220px;
+  margin-top: 30px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+section h3 {
+  font-weight: 800;
+  font-size: 12px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin: 20px;
+}
+section ul {
+  padding: 5px;
+}
+section ul li {
+  list-style-type: none;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 5px;
+}
+#menu-headliner {
+  padding-top: 10px;
+}
+#reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+section p{
+  font-weight: 600;
+  margin: 20px;
+}
+#reviews-headliner {
+  padding: 10px;
+}
+#contact {
+  height: auto;
+  float: left;
+}
+#contact-info-headliner {
+  padding: 10px;
+}
+p .address {
+  padding: 10px;
+  line-height: 3;
+  font-size: 13px;
+  font-weight: 600;
+}
+/****** FOOTER ******/
+footer h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+footer .fresh {
+  color: #77a466;
+  font-family: 'Lobster Two', cursive;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-variant: italic;
+
+}
